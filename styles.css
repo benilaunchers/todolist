@@ -3,3 +3,41 @@
     padding : 0px;
     box-sizing: border-box;
 }
+.container{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #f8ede7;
+}
+.card-header {
+    background-color: #f7f2f0;
+}
+.todo-header {
+    background-color: #e5e5e5;
+    text-align: center;
+}
+.todo-title {
+    padding: 10px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.todo-advice {
+    padding: 10px;
+    display: block;
+    margin: 20px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+#form {
+    text-align: center;
+    margin: 10px;
+}
+ul {
+    margin: 10px;
+    list-style-type: none;
+}
