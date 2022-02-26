@@ -7,15 +7,17 @@
     display : flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 .card {
-    background-color: #f8ede7;
+    height: 100vh;
+    background-color: #eb95f7;
 }
 .card-header {
     background-color: #f7f2f0;
 }
 .todo-header {
-    background-color: #e5e5e5;
+    background-color: #be55f7;
     text-align: center;
 }
 .todo-title {
@@ -37,7 +39,46 @@
     text-align: center;
     margin: 10px;
 }
+input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding:2px 10px;
+}
+#form button {
+    cursor: pointer;
+    padding: 2px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8bbfb;
+}
+#form button:hover {
+    background-color: #be55f7;
+    color : white;
+}
 ul {
     margin: 10px;
     list-style-type: none;
+}
+.card-body ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px;
+    border-left: 5px solid #f8bbfb;
+    border-top-left-radius : 5px;
+    border-bottom-left-radius: 5px;
+}
+.card-body ul li:hover {
+    border-left-color: #be55f7;
+}
+.deleteBtn {
+    background-color: #f8bbfb;
+    border-radius: 5px;
+    padding:2px 10px;
+    cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: #be55f7;
+    color : white;
 }
