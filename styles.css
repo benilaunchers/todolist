@@ -11,13 +11,13 @@
 }
 .card {
     min-height: 100vh;
-    background-color: #eb95f7;
+    background-color: #ffcccd;
 }
 .card-header {
     background-color: #f7f2f0;
 }
 .todo-header {
-    background-color: #be55f7;
+    background-color: #e8ccff;
     text-align: center;
 }
 .todo-title {
